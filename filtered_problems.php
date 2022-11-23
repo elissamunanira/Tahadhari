@@ -5,10 +5,10 @@
 	// Get problems under a particular topic
 	if (isset($_GET['topic'])) {
 		$topic_id = $_GET['topic'];
-		$problems = getPublishedProblmesByTopic($topic_id);
+		$problems = getPublishedProblemsByTopic($topic_id);
 	}
 ?>
-	<title>LifeBlog | Home </title>
+	<title>TahadhariTech | Home </title>
 </head>
 <body>
 <div class="container">
