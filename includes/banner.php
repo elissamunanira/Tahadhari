@@ -10,8 +10,8 @@
 			<h1>Today's Inspiration</h1>
 			<p> 
 			    One day this  <br> 
-			    world will will become <br> 
-			    Devorceless <br>
+			    world will have <br> 
+			    less number of Devorcee <br>
 				<span>~ Tahadhari</span>
 			</p>
 			<a href="register.php" class="btn">Join us!</a>

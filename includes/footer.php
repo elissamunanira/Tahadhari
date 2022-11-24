@@ -2,7 +2,7 @@
     <!--  footer-->
     
 		<div class="footer">
-			<p>MyViewers &copy; <?php echo date('Y'); ?></p>
+			<p>@TahadhariTech &copy; <?php echo date('Y'); ?></p>
 		</div>
 		<!-- // footer -->
 

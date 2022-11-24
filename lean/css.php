@@ -10,7 +10,7 @@
 <body>
     <div class="main">
         <div class="navbar">
-            <input type="checkbox" id="check">
+            <!-- <input type="checkbox" id="check">
             <label for="check">
                 <i class="fas fa-bars" id="btn"></i>
                 <i class="fas fa-bars" id="cancel"></i>
@@ -32,15 +32,15 @@
             <div class="search">
                 <input class="srch" type="search" name="" placeholder="Type to text">
                 <a href="#" ><button class="btn">search<br></button></a>
-            </div>
+            </div> -->
         </div>
         <div class="content">
             <h1>Tahadhari tech <br><span>Is here for you to<br></span>Support to make zero devorce</h1>
 
             <p class="par">This is the site where we can
                 <br>helping people to avoid the different problems
-            <br> of divorse which is at the highest level in this 
-        <br>country by giving the different issues that you meet when
+            <br> of making the the divorse which is at the highest level
+        <br>in this country by giving the different issues that you meet when
     <br> the people are making devorce and other related problems.</p>
 
     <button class="cn"><a href="#">JOIN US</a></button>
@@ -53,6 +53,7 @@
 
         <p class="link">Don't Have an Account<br>
         <a href="#">Sign up </a>Here</p><br>
+        <p class="liw">Login with</p>
     </div>
         </div>
     </div>

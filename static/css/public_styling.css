@@ -51,7 +51,7 @@ form input:focus {
 	text-decoration: none;
 }
 .container {
-	width: 80%;
+	width: 90%;
 	margin: 0px auto;
 }
 /* NAVBAR */
@@ -115,7 +115,7 @@ form input:focus {
 	min-height: 400px;
 	color: white;
 	border-radius: 5px;
-	background-image: url('../images/banner.jpg');
+	background-image: url('../images/8.jpg');
 	background-size: 100% 100%;
 }
 .banner .welcome_msg {

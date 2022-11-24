@@ -147,7 +147,7 @@ ul li a:hover{
 }
 .form{
     width: 250px;
-    height: 380px;
+    height: 360px;
     background: linear-gradient(to top, rgba(25, 57, 83, 0.8)50%,rgba(12, 55, 90, 0.8)50%);
     position: absolute;
     top: -20px;
