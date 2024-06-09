@@ -15,18 +15,20 @@ $problem_topic = "";
 // get all problems from DB
 function getAllProblems()
 {
-	global $conn;
+	global $conn, $sql;
 	
 	// Admin can view all problems
 	// Author can only view their problems
 	if ($_SESSION['user']['role'] == "Admin") {
 		$sql = "SELECT * FROM problems";
+		$result = mysqli_query($conn, $sql);
+		$problems = mysqli_fetch_all($result, MYSQLI_ASSOC);
 	} elseif ($_SESSION['user']['role'] == "Author") {
 		$user_id = $_SESSION['user']['id'];
 		$sql = "SELECT * FROM problems WHERE user_id=$user_id";
+		$result = mysqli_query($conn, $sql);
+		$problems = mysqli_fetch_all($result, MYSQLI_ASSOC);
 	}
-	$result = mysqli_query($conn, $sql);
-	$problems = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 	$final_problems = array();
 	foreach ($problems as $problem) {

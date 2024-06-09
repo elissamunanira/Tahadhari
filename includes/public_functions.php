@@ -8,10 +8,10 @@ function getPublishedProblem() {
 	$sql = "SELECT * FROM problems WHERE published=true";
 	$result = mysqli_query($conn, $sql);
 	// fetch all problem as an associative array called $problem
-	$problem = mysqli_fetch_all($result, MYSQLI_ASSOC);
+	$problems = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 	$final_problem = array();
-	foreach ($problem as $problem) {
+	foreach ($problems as $problem) {
 		$problem['topic'] = getProblemTopic($problem['id']); 
 		array_push($final_problem, $problem);
 	}
